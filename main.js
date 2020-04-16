@@ -50,7 +50,7 @@ const puppeteer = require('puppeteer');
     //await page.setCacheEnabled(false);
     await page.goto('http://localhost:8080/src');
 
-    await page.screenshot({path: 'example2.png'});
+    await page.screenshot({path: 'rendering-result.png'});
     
     await browser.close();
 })();
